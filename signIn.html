@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Amigo</title>
+    <link rel="icon" href="img/icons8-puzzle.svg">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{ background: #3598dc; }
+
+.cont{
+  position: relative;
+  width: 25%;
+  height: 400px;
+  padding: 10px 25px;
+  margin: 10vh auto;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.form{ width: 100%; height: 100%; }
+
+h1, h2, .user, .pass{ 
+  text-align: center;
+  display: block;
+}
+
+h1{ 
+  color: #606060;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 30px auto;
+}
+
+.user, .pass, .login{
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.user, .pass{ background: #ecf0f1; }
+
+.login{
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  background: #3598dc;
+  transition: background 0.4s ease;
+}
+
+.login:hover{ background: #3570dc; }
+
+@media only screen and (min-width : 280px) {
+  .cont{ width: 90% }
+}
+
+@media only screen and (min-width : 480px) {
+  .cont{ width: 60% }
+}
+
+@media only screen and (min-width : 768px) {
+  .cont{ width: 40% }
+}
+
+@media only screen and (min-width : 992px) {
+  .cont{ width: 30% }
+}
+
+h2{ color: #fff; margin-top: 25px; }
+
+    </style>
+    
+</head>
+
+<body style="background-color:#d87b84;background-image: url('LoginImage.jpg');">
+<!-- ############################### START HERE ################################ -->
+
+<!-- Main Navigation -->
+<nav class="navbar navbar-dark bg-teal navbar-expand-sm">
+  <div class="container">
+      <a href="index.html" class="navbar-brand">
+         <img src="img/icons8-puzzle.svg" width="25" height="25"> Amigo</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#uiNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="uiNavbar">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link mx-2">
+                     <i class="fa fa-home"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="about.html" class="nav-link mx-2">
+                      <i class="fa fa-id-card"></i> About Us</a>
+              </li>
+              <li class="nav-item">
+                  <a href="services.html" class="nav-link mx-2">
+                      <i class="fa fa-cog"></i> Services</a>
+              </li>
+              <li class="nav-item">
+                  <a href="signIn.html" class="nav-link mx-2">
+                      <i class="fa fa-user-circle"></i>Log in</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+<!--------contact page------>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<div class="cont">
+  
+  <div class="form">
+   
+      <h1><strong> WELCOME</strong></h1>
+      <input type="text" id="t1"
+             class="user"
+             placeholder="Username" required/>
+      <input type="password" id="t2"
+             class="pass"
+             placeholder="Password" required/>
+      
+      <button class="login" onclick="validate()">Login</button>
+    
+    <h5 style="text-align: center;color: red;">Only for Administrator</h5>
+  </div>
+  
+  
+  
+</div>
+<script>
+  function validate()
+  {
+  var username = document.getElementById("t1").value;
+  var password = document.getElementById("t2").value;
+  if (username.length==0 )
+  {
+  alert("you cant be blank");
+  }
+  if(username=="abhi" && password=="1234")
+  {
+  window.location="index.html";
+  }
+  else
+  {
+  alert("invalid user");
+  
+  }
+  }
+  </script>
+
+
+
+
+
+<!-- ############################### END HERE ################################ -->
+
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!-- BODY ENDS -->
+<script src="bootstrap/js/fontawesome-all.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/mdb.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+
+</html>
