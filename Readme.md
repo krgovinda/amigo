@@ -1,5 +1,5 @@
 BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI
- 
+ ![](C:\Users\asus\Downloads\bit-newlogo.png)
 MEASURES OF VARIABILITY & DISPERSION
 
 Submitted to: Rashmi Rathi Upadhyay
