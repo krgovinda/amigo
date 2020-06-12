@@ -20,7 +20,7 @@
 
 Dispersion means the amount of discrepancies among the data entries. It is used to compare dispersion of various samples. Reliability of measure of central tendency.</br>
 
-<img src = "img/dispersion" height=400 weidth=400></br>
+<img src = "img/dispersion.png" height=400 weidth=400></br>
 
 Fig: Dispersion</br>
 
@@ -41,7 +41,7 @@ Range (for ungrouped data)
 - It ignores all data points except the two extremes.
 - Given a set of data set, the range is defined as the interval (min, max). Hence the range length (RL) is the difference between the maximum and the minimum of the data entries (i.e., RL=max-min).
 
-<img src = "img/range" height=400 weidth=400></br>
+<img src = "img/range.png" height=400 weidth=400></br>
 
 Fig: Range
 
@@ -75,9 +75,9 @@ Inter-quartile Range</br>
 - Less influenced by extremes.
 - IQR=Q3-Q1
 
-<img src = "img/quartile" height=400 weidth=400></br>
+<img src = "img/quartile.png" height=400 weidth=400></br>
 
-<img src = "img/quartile1" height=400 weidth=400></br>
+<img src = "img/quartile1.png" height=400 weidth=400></br>
 
 IQR=Q3-Q1</br>
 
@@ -99,9 +99,9 @@ Real Life example of IQR:</br>
 
 Mean Absolute Deviation</br>
 
-<img src = "img/deviation" height=250 weidth=300></br>
+<img src = "img/deviation.png" height=250 weidth=300></br>
 
-<img src = "img/mad" height=300 weidth=300></br>
+<img src = "img/mad.png" height=300 weidth=300></br>
 
 Algorithm of deviation from the mean</br>
 
@@ -142,7 +142,7 @@ Standard Deviation</br>
 - Households incomes in two cities
 - Employee absenteeism at two plants</br>
 
-<img src = "img/sd" height=250 weidth=250></br>
+<img src = "img/sd.png" height=250 weidth=250></br>
 
 Algorithm for Standard deviation
 
@@ -165,7 +165,7 @@ Real life example of Standard deviation</br>
 - It is the measurement of the spread between numbers in a data set.
 - That is, it measures how far each number in the set is from the mean and therefore from every other number in the set.
 
-</br><img src = "img/variance" height=400 weidth=400></br>
+</br><img src = "img/variance.png" height=400 weidth=400></br>
 
 Algorithm for the variance
 
@@ -185,7 +185,7 @@ Real life example of variance
 - The concept of skewness gains importance from the fact that statistical theory is often based upon the assumption of the normal distribution.
 - A measure of skewness is, therefore, necessary in order to guard against the consequences of this assumption.
 
-</br><img src = "img/skewness" height= 400 weidth=400></br>
+</br><img src = "img/skewness.png" height= 400 weidth=400></br>
 
 Fig: Skewness</br>
 
@@ -198,7 +198,7 @@ Fig: Skewness</br>
   - Median lies between mode and mean, and mode is greater than mean.
 - Coefficient of skewness
 
-</br><img src = "img/skw"></br>
+</br><img src = "img/skw.png"></br>
 
   - If S\&lt;0, the distribution is negatively skewed (skewed to the left)
   - If S=0, the distribution is symmetric (not skewed)
@@ -235,7 +235,7 @@ Algorithm for Skewness:
   - Mesokurtic : normal in shape
   - Platykurtic : flat and spread out
 
-</br><img src = "img/kurtosis" height=400 weidth=400></br>
+</br><img src = "img/kurtosis.png" height=400 weidth=400></br>
 
 - Formula of kurtosis is</br>
 
